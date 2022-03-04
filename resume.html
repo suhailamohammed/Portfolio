@@ -14,85 +14,111 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title>Portfolio</title>
 </head>
-<body style="background-color: aliceblue;">
-    <div class="section">
-        <div class="video-container">
-            <div class="color-overlay">
-            <video autoplay loop muted style="max-width: 100%; max-height:100%"> 
-                <source src="video.mp4" type="video/mp4">
-            </video>
+<body style="background-color: rgb(210, 212, 214);">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="portfolio.html">Suhaila's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Course-notes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                </ul>
+            </div>
         </div>
-            <h1>Hello, I'm 
-
-            </h1>
-           
-            <h1 style="font-family: 'Anton', sans-serif; color:azure"> Suhaila Mohammed </h1>
+    </nav>
+    <header class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
+        <div class="text-center my-5">
+            
+            <h1 class="text-white fs-3 fw-bolder">Resume</h1>
         </div>
-    </div>  
-    <ul>
-        <li><a style="color:black" href="portfolio.html">Home</a></li>
-        <li><a style="color:black" href="resume.html"  class="active">Resume</a></li>
-        <li><a style="color:black" href="research.html">Research</a></li>
-        <li><a style="color:black" href="course_notes.html">Course</a></li>
-        <li><a style="color:black" href="contact.html">Contact</a></li>
-    </ul>
+    </header>
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
                 <h3 style="text-align: center;padding-top:10%">Education</h3>
-               
-                    <div class="bg-dark rounded p-4">
+                <div class="hover-zoom ">
+                    <div class="bg-dark rounded p-4"style="margin-top:10%">
                         <p class="badge bg-danger text-2 fw-400">2019 - Present</p>
                         <h3 class="text-5 text-white">Computer Science and Engineering</h3>
                         <p class="text-primary">Independent University, Bangladesh</p>
                         <p class="text-white-50 mb-0">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
                       </div>
-               
+                </div>
                 
-                    <div class="bg-dark rounded p-4 ">
+                    <div class="bg-dark rounded p-4 " style="margin-top:10%">
                         <p class="badge bg-danger text-2 fw-400">2016 - 2019</p>
                         <h3 class="text-5 text-white">O level & A level </h3>
                         <p class="text-primary">Oxford International School</p>
                         <p class="text-white-50 mb-0">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
                     </div>
-                    <h3>Research background</h3>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 ">
                 <h3 style="text-align: center; padding-top:10%">Work Experience</h3>
-                <div class="bg-dark rounded p-4 ">
+                <div class="bg-dark rounded p-4 " style="margin-top:10%">
                         <p class="badge bg-danger text-2 fw-400">2021 - Present</p>
                         <h3 class="text-5 text-white">Student On Duty (SOD)</h3>
                         <p class="text-primary">Independent University, Bangladesh</p>
                         <p class="text-white-50 mb-0">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
                 </div>
-                <div class="bg-dark rounded p-4 ">
+                <div class="bg-dark  rounded p-4 " style="margin-top:10%">
                     <p class="badge bg-danger text-2 fw-400">2000 - 2004</p>
                     <h3 class="text-5 text-white">Computer Science</h3>
                     <p class="text-primary">International University</p>
                     <p class="text-white-50 mb-0">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
                 </div>
-                <div class="card-container-content">
-                    <div class="card">
-                        <div class="">
-                        <h5 class="card-title">Research work</h5>
-                        <p class="card-text">To view more about the research and project work.</p>
-                        <a class="stretched-link" href="research.html">
-                        </a>
-                        </div>
-                    </div>
-                </div>
+                
                
             </div>
             
             
         </div>
+        <div class="container p-5">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <b>Research Background</b>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="card-container-content d-flex justify-content-center">
+                            <div class="card">
+                                <div class="">
+                                <h5 class="card-title">Research work</h5>
+                                <p class="card-text">To view more about the research and project work.</p>
+                                <a class="stretched-link" href="research.html">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                
+            
+        </div>
         <h3 style="margin-top: 50px; text-align:center">Awards & Scholarship</h3>
-        
+        <div class="d-grid gap-3">
+            
+                <div class="p-2 bg-light border px-5">SOme award here</div>
+                <div class="p-2 bg-light border px-5">ANother award2</div>
+                <div class="p-2 bg-light border px-5">Grid item 3</div>
+            
+        </div>
     </div>
-    <a id="download" type="submit" name="button" class="btn btn-primary" class="btn btn-danger" role="button" 
-    href="CV-BASSMA.pdf" download="CV_BASSMA">
-        Download
-    </a>
+    <div class="container p-5 d-flex justify-content-center">
+        <div class="single-info py-5 px-5">
+            <p>To know more about me, click below!</p>
+            <a id="download" type="submit" name="button" class="btn btn-primary" class="btn btn-danger" role="button" 
+            href="Suhaila's-Resume.pdf" download="Suhaila's_Resume">
+                Download
+            </a>
+        </div>
+    </div>
 
 </body>
 </html>

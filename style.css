@@ -3,35 +3,10 @@ body {
     margin : auto;
 }
   
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.644);
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    
-    top: 0;
-  }
   
-  li {
-    float: left;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    
-    padding: 14px 16px;
-    text-decoration: none;
-  }
   
   li a:hover {
-    background-color: #111;
+    background-color: rgb(22, 110, 74);
   }
   
 .active {
@@ -129,7 +104,7 @@ a{
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: black;
-  margin-top:10%;
+ 
 }
 .card{
   background-color: rgb(164, 203, 209);
@@ -151,4 +126,13 @@ a{
   padding-right: 10%;
   padding-left: 10%;
  
+}
+.px-5:hover {
+  background: linear-gradient(
+        45deg,
+        rgba(29, 236, 197, 0.5),
+        rgba(219, 21, 21, 0.5) 100%
+      );
+  border-radius: 10px;
+  transform: scale(1.05);
 }
