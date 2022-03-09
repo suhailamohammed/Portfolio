@@ -1,23 +1,18 @@
 body {
-    background-color: rgb(241, 237, 237);
-    margin : auto;
+  background-color: rgb(241, 237, 237);
+  margin : auto;
 }
-  
-  
-  
-  li a:hover {
-    background-color: rgb(22, 110, 74);
-  }
+ 
+li a:hover {
+  background-color:rgba(201, 217, 238, 0.863);
+  border-radius: 5px;
+}
   
 .active {
-    background-color: #c2852a;
-}
-.video-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
     
+  border-style: solid; 
+  border-color: rgb(0, 0, 0);  
+  border-radius: 5px;
 }
 
 .section{
@@ -30,31 +25,24 @@ body {
     overflow: hidden;
 }
 .section h1 {
-    text-align: center;
-    font-size: 2rem;
-    padding: 20px;
-    margin: 15px;
-    z-index: 1;
-    opacity: 0.7;
-    color: #111;
+  text-align: center;
+  font-size: 2rem;
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+  color: #111;
 }
-.color-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgb(215, 223, 226);
-    
-    opacity: 0.9;
-}
+
 .single-info {
  
   margin-bottom: 30px;
   text-align: center;
-  background: #475179;
+  background: #4a5270;
   position: relative;
   border-radius: 10px;
- height: 130px;
- width: 300px;
+  height: 130px;
+  width: 300px;
 }
 .about-border {
   display: block;
@@ -63,69 +51,27 @@ body {
   background: #805917;
   margin: 20px auto;
 }
-#project{
-  margin-bottom: 30px;
-  text-align: center;
-  background: #ced0da;
-  border: #111;
-  border-width: 10px;
-  position: relative;
-  left: 300px;
-  border-radius: 10px;
- height: 130px;
- width: 500px;
-}
+
 a{
   text-decoration: none;
   color: #111;
 }
 .badge {
   display: inline-block;
-  
   font-size: .75em;
   font-weight: 700;
   line-height: 1;
   color: #fff;
   text-align: center;
- 
   border-radius: 0.25rem;
 }
-.bg-danger {
-  --bs-bg-opacity: 1;
-  background-color:red;
-}
+
 .fw-400 {
   font-weight: 400 ;
 }
 .text-2 {
   font-size: 14px ;
   font-size: 0.875rem ;
-}
-.bg-dark {
-  --bs-bg-opacity: 1;
-  background-color: black;
- 
-}
-.card{
-  background-color: rgb(164, 203, 209);
-  overflow: hidden;
-  padding: 50px;
-  height: 200px;
-  width: 450px;
-  
-}
-
-.card:hover {
-  background-color: rgba(81, 192, 196, 0.527);
-  border-radius: 15px;
-  transform: scale(1.05);
-}
-
-.card-container-content {
-  margin-top: 40px;
-  padding-right: 10%;
-  padding-left: 10%;
- 
 }
 .px-5:hover {
   background: linear-gradient(
@@ -135,4 +81,8 @@ a{
       );
   border-radius: 10px;
   transform: scale(1.05);
+}
+.box2 {
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
 }
